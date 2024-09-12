@@ -51,7 +51,7 @@ def rank_in_uni_degree(data):
             check.append((degree, uni))
             
 def extract_torino_data():
-    with open("H:/edisu/ranking_cat.txt", "r") as infile:
+    with open("ranking_cat.txt", "r") as infile:
         data = list()
         for line in infile:
             line = line.rstrip()
